@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhinav's - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="home" class="left">Abhinav's Portfolio</div>
+            <div class="right">
+                <ul>
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#section2">About</a></li>
+                   <li><a href="#section2">Skills</a></li>
+                   <li><a href="#section3">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="section1" class="firstsection">
+            <div class="leftsection">Hi, myself <span class="purple">Abhinav Chaubey</span>
+            , and I am a Student at Kashi Institute Of Technology.
+            </div>
+            <div class="rightsection">
+                <img src="coding_background_1200x1200.webp" alt="Developer Image"></div>
+        </section>
+        <hr>
+        <section id="section2" class="secondsection">
+            <div class="leftside">
+                <div class="About">About ME</div>
+                <P>My name is Abhinav Chaubey and I am currently pursuing B.Tech in CSE from Kashi Institute Of Tecnology. I have done my Secondary and Senior Secondary from Sant Atulanand Convent School and Maa Sharda Inter College.</P>
+                <img src="images (1).png" height="140px" width="400px">
+            </div>
+            <div class="rightside">
+                <div class="skills">Skills</div>
+                <p>I have understanding in <img src="HTML5_logo_black.svg" height="25px"> HTML, <img src="CSS3_logo_and_wordmark.svg.png" height="25px"> CSS, and  <img src="C_Programming_Language.svg.png" height="25PX"> C and also learning <img src="JS.jpg" height="25PX">  Javascript. I have done mini My Portfolio Project and mini <img src="amazon logo.jpeg" height="25px"> Amazon Clone Project </p>
+                <img src="download (1).jpg">
+            </div>
+            
+            </div>
+        </section>
+        <section id="section3" class="thirdsection">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        
+                    <button type="submit">Send Message</button>
+                    <p class="success" id="success-message" style="display: none;">Your message has been sent!</p>
+                    <p class="error" id="error-message" style="display: none;">There was an error. Please try again.</p>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>&copy; 2024 Abhinav Chaubey. All Rights Reserved.</p>
+          </footer>
+    </main>
+</body>
+
+</html>
